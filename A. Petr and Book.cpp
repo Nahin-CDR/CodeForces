@@ -24,7 +24,7 @@ int main()
 	int index;
 	while(true)
 	{
-		for(auto it = mp.begin(); it!=mp.end(); it++)
+	    for(auto it = mp.begin(); it!=mp.end(); it++)
 	    {
 		    index = it->first;
 		    int number = it->second;
@@ -32,12 +32,12 @@ int main()
 		    if(counter>=page)
 		    {
 		    	goto level;
-			}
+		    }
 	    }
 	}
 	
 	level:
-		cout<<index;
+	cout<<index;
 	
 	
 	return 0;
