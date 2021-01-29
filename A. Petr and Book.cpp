@@ -22,6 +22,7 @@ int main()
 	
 	int counter = 0;
 	int index;
+	
 	while(true)
 	{
 	    for(auto it = mp.begin(); it!=mp.end(); it++)
