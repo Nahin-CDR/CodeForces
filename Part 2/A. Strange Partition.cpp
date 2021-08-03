@@ -23,7 +23,6 @@ int main()
             sum2 = sum2 + k;
         }
         cout<<(sum2+x-1)/x<<" "<<sum1<<"\n";
-
     }
     return 0;
 }
